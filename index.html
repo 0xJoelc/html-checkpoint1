@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>checkpoint one</title>
+    <title>TRADING CHECKLIST</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <nav>
@@ -17,55 +18,75 @@
         <li><a href="">Perpetual</a></li>
         <li><a href="">Forex Trading</a></li>
       </ul>
+      <div class="vertical-line"></div>
       <div>
-        <p>what we are</p>
-        <p>what we do</p>
-        <p>access our liquidity</p>
-        <p>strategic investment</p>
+        <ul>
+          <li>what we are</li>
+          <li>what we do</li>
+          <li>access our liquidity</li>
+          <li>strategic investment</li>
+        </ul>
       </div>
     </nav>
-    <section>
-      <h1>where collaboration fuels innovation</h1>
-      <video src="S&P 500.mp4" autoplay controls height="360">
+    <section class="video-section">
+      <h1 class="innovation">
+        WHERE <br />
+        COLLABORATION <br />FUELS <br />
+        INNOVATION
+      </h1>
+      <video src="S&P 500.mp4" autoplay aria-controls="" loop height="360">
         video does not play on your browser
       </video>
     </section>
-    <section>
+    <section class="future-section">
       <h1>building for our future</h1>
-      <p>
+      <p id="building">
         The future is full of opportunity. That’s why we’re always <br />
         innovating, always expanding into new markets and asset <br />
         classes, and always sharing ideas and expertise across offices.
       </p>
     </section>
     <section>
-      <h1>sign up for our newsletter</h1>
-      <p>
+      <h1 id="h1">SIGN UP FOR OUR NEWSLETTER</h1>
+      <p id="newsletter-p">
         stay up-to-date with the latest development and events from trading
         checklist
       </p>
     </section>
     <form>
-      <div>
-        <label for="email"> Email</label>
-        <input type="email" id="email" />
+      <div class="form-div">
+        <label for="email">Email</label>
+
+        <input type="email" id="email" placeholder="   Type your email" />
       </div>
-      <div>
-        <label for="first-name">first name</label>
-        <input type="name" id="first-name" />
+      <div class="form-div">
+        <div><label for="first-name">First Name</label></div>
+
+        <input
+          type="name"
+          id="first-name"
+          placeholder="   Type your first name"
+        />
       </div>
-      <div>
-        <label for="last-name">last name</label>
-        <input type="text" id="last-name" />
+      <div class="form-div">
+        <label for="last-name">Last Name</label>
+
+        <input
+          type="text"
+          id="last-name"
+          placeholder="   Type your last name"
+        />
       </div>
     </form>
     <footer>
-      <div>
+      <div class="footer-div">
         <img width="100" src="pfp.jpg" alt="firm logo" />
         <p><a href="mailto:chidinalex3@gmail.com">chidinalex3@gmail.com</a></p>
         <p><a href="tel:+234">+2348078205998</a></p>
         <a href="#top">back to the top</a>
-        <hr />
+      </div>
+      <hr />
+      <div class="second-footer">
         <p>2024 TRADING CHECKLIST. All rights reserved.</p>
         <p><a href="">terms and conditions</a></p>
         <p><a href="">cookies setting</a></p>
